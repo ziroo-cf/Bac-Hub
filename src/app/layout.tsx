@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bac Hub",
-  description: "site app for BAC",
+  title: "Bac-Hub | مصادر الباكالوريا",
+  description: "أفضل الروابط والمصادر التعليمية لطلاب البكالوريا في مكان واحد",
 };
 
 export default function RootLayout({
