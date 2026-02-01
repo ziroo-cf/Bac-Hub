@@ -18,7 +18,7 @@ export default function Home() {
         <h1 className="text-4xl font-extrabold text-blue-900 mb-2 tracking-tight">
           Bac<span className="text-blue-500">Hub</span> 🎓
         </h1>
-        <p className="text-gray-500 text-lg">بوصلتك للنجاح في البكالوريا</p>
+        <p className="text-gray-500 text-lg">أحسن المصادر لي محتاج فبلاصة وحدة</p>
       </header>
 
       {/* 2. Tabs Navigation */}
