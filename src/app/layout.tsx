@@ -15,6 +15,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Bac-Hub | مصادر الباكالوريا",
   description: "أفضل الروابط والمصادر التعليمية لطلاب البكالوريا في مكان واحد",
+  //Manifest for iOS
+  appleWebApp: {
+    title: 'Bac-Hub',
+    statusBarStyle: 'default',
+    startupImage: ['/icon-512.png'],
+  },
 };
 
 export default function RootLayout({
