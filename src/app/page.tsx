@@ -77,7 +77,7 @@ export default function Home() {
                       {res.title}
                     </h3>
                     <span className="text-xs text-[#6b7280] uppercase tracking-wider">
-                      {res.type === 'video' ? 'Youtube' : 'Document'}
+                      {res.type === 'video' ? 'Youtube' : 'AlloSchool'}
                     </span>
                   </div>
                 </div>
