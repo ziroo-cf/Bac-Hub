@@ -21,5 +21,21 @@ export default function manifest(): MetadataRoute.Manifest {
         "type": "image/png"
       },
     ],
+    screenshots: [
+  {
+    "src": "/screenshot-mobile.png",
+    "sizes": "1080x1920",
+    "type": "image/png",
+    "form_factor": "narrow",
+    "label": "Bac-Hub Mobile View"
+  },
+  {
+    "src": "/screenshot-desktop.png",
+    "sizes": "1920x1080",
+    "type": "image/png",
+    "form_factor": "wide",
+    "label": "Bac-Hub Desktop View"
+  }
+]
   }
 }
