@@ -34,6 +34,35 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+
+        <footer className="mt-20 p-10 border-t border-white/5 bg-[#0a0a0a] text-center">
+          <h3 className="text-xl font-medium mb-8 text-white/90 flex items-center justify-center gap-2">
+            ثبت التطبيق على هاتفك <span className="text-lg">📲</span>
+          </h3>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
+          {/* Android Card */}
+            <div className="p-4 bg-white/[0.03] rounded-2xl border border-white/10 hover:border-white/30 transition-colors group">
+              <p className="text-gray-300 font-medium opacity-80 group-hover:opacity-100">Android / Chrome</p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                اضغط على النقاط الثلاث <span className="text-white text-lg">⋮</span> ثم اختر <br/>
+                <span className="text-white font-semibold">"الاضافة الى الشاشة الرئيسية"</span>
+              </p>
+            </div>
+          {/* iPhone Card */}
+            <div className="p-4 bg-white/[0.03] rounded-2xl border border-white/10 hover:border-white/30 transition-colors group">
+              <p className="text-gray-300 font-medium opacity-80 group-hover:opacity-100">iPhone / Safari</p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                اضغط على أيقونة المشاركة <span className="text-white text-lg">⎋</span> ثم اختر <br/>
+                <span className="text-white font-semibold">"اضافة الى الصفحة الرئيسية"</span>
+              </p>
+            </div>
+          </div>
+
+          <p className="mt-10 text-[10px] tracking-widest uppercase text-gray-600">
+            © 2026 Bac-Hub • Focus on your success
+          </p>
+        </footer>
       </body>
     </html>
   );
