@@ -59,6 +59,21 @@ export default function RootLayout({
             </div>
           </div>
 
+          {/* instagram */}
+          <div className="mt-8 max-w-3xl mx-auto">
+            <a 
+              href="https://instagram.com/ziroopam" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group flex flex-col items-center justify-center p-4 bg-gradient-to-br from-purple-600/10 to-pink-600/10 rounded-2xl border border-white/5 hover:border-pink-500/30 transition-all duration-300"
+            >
+              <h4 className="text-white font-semibold text-lg mb-1">عندك شي مصدر يستحق يتزاد؟</h4>              
+              <span className="text-pink-400 font-medium text-sm group-hover:underline">
+                @ziroopam ↗
+              </span>
+            </a>
+          </div>
+
           <p className="mt-10 text-[10px] tracking-widest uppercase text-gray-600">
             © 2026 Bac-Hub • Focus on your success
           </p>
