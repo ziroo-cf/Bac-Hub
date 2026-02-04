@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     canonical: "https://bac-hub.vercel.app",
   },
   verification: {
-    google: '<meta name="google-site-verification" content="eR46vKfaAsyB10_8FpZCZn3VZxhD0hS8MH3TPiS-Xpw" />',
+    google: 'eR46vKfaAsyB10_8FpZCZn3VZxhD0hS8MH3TPiS-Xpw',
   },
 };
 
