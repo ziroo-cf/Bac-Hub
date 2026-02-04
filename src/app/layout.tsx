@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,7 +35,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        
+        {/* Vercel Analytics */}
+        <Analytics />
 
+      {/* Footer */}
         <footer className="mt-20 p-10 border-t border-white/5 bg-[#0a0a0a] text-center">
           <h3 className="text-xl font-medium mb-8 text-white/90 flex items-center justify-center gap-2">
             ثبت التطبيق على هاتفك <span className="text-lg">📲</span>
