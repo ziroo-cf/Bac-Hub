@@ -16,11 +16,25 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Bac-Hub | مصادر الباكالوريا",
   description: "أفضل الروابط والمصادر التعليمية لطلاب البكالوريا في مكان واحد",
+  keywords: [
+    'Bac 2026', 'Bac Hub', 'Bac Maroc', 'البكالوريا 2026', 
+    'امتحانات وطنية', 'ملخصات دروس الباك', 'باك المغرب', 
+    'Bac Math', 'Bac PC', 'Bac SVT', 'دروس الباكالوريا'
+  ],
+
   //Manifest for iOS
   appleWebApp: {
     title: 'Bac-Hub',
     statusBarStyle: 'default',
     startupImage: ['/icon-512.png'],
+  },
+
+  // google SEO this is the official and only link to the website.
+  alternates: {
+    canonical: "https://bac-hub.vercel.app",
+  },
+  verification: {
+    google: '<meta name="google-site-verification" content="eR46vKfaAsyB10_8FpZCZn3VZxhD0hS8MH3TPiS-Xpw" />',
   },
 };
 
