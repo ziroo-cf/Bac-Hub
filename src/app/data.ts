@@ -122,6 +122,137 @@ export const bacData: Subject[] = [
   },
   {
     id: 4,
+    subjectName: "SI SMB",
+    icon: "💡",
+    resources: [
+      {
+        title: "قناة دروس ثانية الباكالوريا ",
+        url: "https://www.youtube.com/playlist?list=PLs2l4yYxM5yL_pTD913wShn1bdEF8yLJJ",
+        type: "video"
+      },
+      {
+        title: "Kresco Academia ",
+        url: "https://www.youtube.com/playlist?list=PLznJ7oGLi5aqdgdgU-AJOBjKuWBp4sEJM",
+        type: "video"
+      },
+      {
+        title: "TECHNO SI ",
+        url: "https://www.youtube.com/@technosi8830/videos",
+        type: "video"
+      },
+      {
+        title: "Sciences de l'Ingénieur ",
+        url: "https://www.youtube.com/@sciences-ingenieur0/playlists",
+        type: "video"
+      },
+      {
+        title: "Prof Hamza Riteb ",
+        url: "https://www.youtube.com/@profhamzariteb6745/videos",
+        type: "video"
+      },
+      {
+        title: "Cours, Résumés et Exercices ",
+        url: "https://www.alloschool.com/course/sciences-de-l-ingenieur-2eme-bac-sciences-mathematiques-b#top",
+        type: "doc"
+      },
+      {
+        title: "Examens nationaux avec corrigés ",
+        url: "https://www.alloschool.com/section/920",
+        type: "doc"
+      },
+      {
+        title: " Cadre de référence de l'examen national",
+        url: "https://www.alloschool.com/section/2103",
+        type: "doc"
+      },
+    ]
+  },
+  {
+    id: 5,
+    subjectName: "SI STE",
+    icon: "⚡",
+    resources: [
+      {
+        title: "Kresco Academia ",
+        url: "https://www.youtube.com/playlist?list=PLznJ7oGLi5aqdgdgU-AJOBjKuWBp4sEJM",
+        type: "video"
+      },
+      {
+        title: "TECHNO SI ",
+        url: "https://www.youtube.com/@technosi8830/videos",
+        type: "video"
+      },
+      {
+        title: "Sciences de l'Ingénieur ",
+        url: "https://www.youtube.com/@sciences-ingenieur0/playlists",
+        type: "video"
+      },
+      {
+        title: "Science d'ingenieur pour STE ",
+        url: "https://www.youtube.com/@yassomariem/playlists",
+        type: "video"
+      },
+      {
+        title: "Cours, Résumés et Exercices ",
+        url: "https://www.alloschool.com/course/sciences-de-l-ingenieur-2eme-bac-sciences-et-technologies-electriques#!",
+        type: "doc"
+      },
+      {
+        title: "Examens nationaux avec corrigés ",
+        url: "https://www.alloschool.com/section/1330",
+        type: "doc"
+      },
+      {
+        title: " Cadre de référence de l'examen national",
+        url: "https://www.alloschool.com/section/2102",
+        type: "doc"
+      },
+    ]
+  },
+  {
+    id: 6,
+    subjectName: "SI STM",
+    icon: "⚙️",
+    resources: [
+      {
+        title: "TECHNO SI ",
+        url: "https://www.youtube.com/@technosi8830/videos",
+        type: "video"
+      },
+      {
+        title: "قناة دروس ثانية الباكالوريا ",
+        url: "https://www.youtube.com/playlist?list=PLs2l4yYxM5yL_pTD913wShn1bdEF8yLJJ",
+        type: "video"
+      },
+      {
+        title: "Sciences de l'Ingénieur ",
+        url: "https://www.youtube.com/@sciences-ingenieur0/playlists",
+        type: "video"
+      },
+      {
+        title: "Sciences de l'ingénieur ahmed aitouchaoui ",
+        url: "https://www.youtube.com/@ahmedaitouchaoui7561/playlists",
+        type: "video"
+      },
+      {
+        title: "Cours, Résumés et Exercices ",
+        url: "https://www.alloschool.com/course/sciences-de-l-ingenieur-2eme-bac-sciences-et-technologies-mecaniques",
+        type: "doc"
+      },
+      {
+        title: "Examens nationaux avec corrigés ",
+        url: "https://www.alloschool.com/section/1399",
+        type: "doc"
+      },
+      {
+        title: " Cadre de référence de l'examen national",
+        url: "https://www.alloschool.com/section/2219",
+        type: "doc"
+      },
+    ]
+  },
+  {
+    id: 7,
     subjectName: "الفلسفة",
     icon: "🧠",
     resources: [
@@ -168,7 +299,7 @@ export const bacData: Subject[] = [
     ]
   },
   {
-    id: 5,
+    id: 8,
     subjectName: "Anglais",
     icon: "🇬🇧",
     resources: [
@@ -200,7 +331,7 @@ export const bacData: Subject[] = [
     ]
   },
   {
-    id: 6,
+    id: 9,
     subjectName: "نصائح",
     icon: "📆",
     resources: [
